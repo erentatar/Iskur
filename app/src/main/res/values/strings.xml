@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Türkiye İş Kurumu</string>
+    <string name="business_name">Türkiye İş Kurumu</string>
+    <string name="business_address" translatable="false">Emniyet Mahallesi, Mevlana Blv. No:42, 06560 Yenimahalle/Ankara</string>
+    <string name="business_phone" translatable="false">+903122163000</string>
+    <string name="business_website" translatable="false">www.iskur.gov.tr</string>
+    <string name="btn_primary_txt">İş Bul</string>
+    <string name="txt_discover">Hızlı iş bulmanın en doğru adresi !</string>
+</resources>

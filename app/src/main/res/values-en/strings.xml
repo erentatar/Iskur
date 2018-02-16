@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turkish Employment Agency</string>
+    <string name="business_name">Turkish Employment Agency</string>
+    <string name="btn_primary_txt">Find Job</string>
+    <string name="txt_discover">"Fastest way to find right job ! "</string>
+</resources>
