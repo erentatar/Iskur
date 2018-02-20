@@ -9,6 +9,7 @@
         android:id="@+id/imgIskur"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/img_iskur_description"
         android:scaleType="centerCrop"
         android:src="@drawable/background" />
 
@@ -35,12 +36,12 @@
         android:textColor="@android:color/holo_blue_dark" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/txtDiscover"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:id="@+id/relativeLayout">
+        android:paddingRight="16dp">
 
         <TextView
             android:id="@+id/business_name"
@@ -60,18 +61,14 @@
             android:orientation="horizontal"
             android:paddingTop="20dp">
 
-            <ImageView
-                android:id="@+id/imgAddress"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:src="@drawable/address_ico" />
-
             <TextView
                 android:id="@+id/txtAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink="map"
-                android:paddingLeft="16dp"
+                android:drawableLeft="@drawable/address_ico"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/address_ico"
                 android:text="@string/business_address"
                 android:textColor="@android:color/holo_blue_dark"
                 android:textColorLink="@android:color/white" />
@@ -85,18 +82,14 @@
             android:orientation="horizontal"
             android:paddingTop="20dp">
 
-            <ImageView
-                android:id="@+id/imgPhone"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:src="@drawable/phone_ico" />
-
             <TextView
                 android:id="@+id/txtPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink="phone"
-                android:paddingLeft="16dp"
+                android:drawableLeft="@drawable/phone_ico"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/phone_ico"
                 android:text="@string/business_phone"
                 android:textColor="@android:color/white"
                 android:textColorLink="@android:color/holo_blue_dark" />
@@ -110,18 +103,14 @@
             android:orientation="horizontal"
             android:paddingTop="20dp">
 
-            <ImageView
-                android:id="@+id/imgWebsite"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:src="@drawable/url_ico" />
-
             <TextView
                 android:id="@+id/txtWebsite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
-                android:paddingLeft="16dp"
+                android:drawableLeft="@drawable/url_ico"
+                android:drawablePadding="16dp"
+                android:drawableStart="@drawable/url_ico"
                 android:text="@string/business_website"
                 android:textColor="@android:color/white"
                 android:textColorLink="@android:color/holo_blue_dark" />
@@ -132,7 +121,8 @@
         android:id="@+id/imgLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/relativeLayout"
+        android:layout_above="@id/relativeLayout"
         android:layout_centerHorizontal="true"
+        android:contentDescription="@string/img_logo_description"
         android:src="@drawable/logo" />
 </RelativeLayout>

@@ -4,4 +4,6 @@
     <string name="business_name">Turkish Employment Agency</string>
     <string name="btn_primary_txt">Find Job</string>
     <string name="txt_discover">"Fastest way to find right job ! "</string>
+    <string name="img_iskur_description">İşkur background image</string>
+    <string name="img_logo_description">İşkur logo</string>
 </resources>

@@ -6,4 +6,6 @@
     <string name="business_website" translatable="false">www.iskur.gov.tr</string>
     <string name="btn_primary_txt">İş Bul</string>
     <string name="txt_discover">Hızlı iş bulmanın en doğru adresi !</string>
+    <string name="img_iskur_description">İşkur arkaplan resmi</string>
+    <string name="img_logo_description">İşkur logosu</string>
 </resources>
